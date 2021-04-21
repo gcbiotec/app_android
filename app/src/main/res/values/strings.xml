@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BusinessControlV3</string>
+    <string name="title_activity_splash_screen">FullscreenActivity</string>
+    <string name="texto_toast">Text de Toast!</string>
+    <string name="texto_snackbar">Deseja mesmo sair da aplicação?</string>
+    <string name="texto_confirmacao">Sair</string>
+</resources>
