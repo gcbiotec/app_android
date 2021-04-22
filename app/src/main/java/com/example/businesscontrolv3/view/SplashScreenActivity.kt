@@ -26,13 +26,11 @@ class SplashScreenActivity : AppCompatActivity() {
 
         GlobalScope.launch {
             delay(5000)
-            val intent = Intent(applicationContext, MainActivity::class.java)
+//            val intent = Intent(applicationContext, MainActivity::class.java)
+              val intent = Intent(applicationContext, LoginActivity::class.java)
+
             startActivity(intent)
             finish()
         }
-
-
-
-
     }
 }
