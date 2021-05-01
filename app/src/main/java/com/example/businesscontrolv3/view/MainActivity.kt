@@ -6,12 +6,20 @@ import android.view.View
 import android.widget.Toast
 import com.example.businesscontrolv3.R
 import com.google.android.material.snackbar.Snackbar
+import com.google.android.material.tabs.TabLayoutMediator
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+//        TabLayoutMediator(tabs, pager){
+//            tab, position -> tab.text = when(position){
+//                0 -> "Resumo"
+//                1 ->  "Transações"
+//                else -> ""
+//            }
+//        }
     }
 
     override fun onPostCreate(savedInstanceState: Bundle?) {

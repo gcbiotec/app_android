@@ -3,5 +3,10 @@
     <string name="title_activity_splash_screen">FullscreenActivity</string>
     <string name="texto_toast">Text de Toast!</string>
     <string name="texto_snackbar">Deseja mesmo sair da aplicação?</string>
+
     <string name="texto_confirmacao">Sair</string>
+
+    <string name="password_blank">Password não pode ser vazio</string>
+    <string name="email_blank">Password não pode ser vazio</string>
+    <string name="email_invalid">Email não pode ser inválido!</string>
 </resources>
